@@ -1,10 +1,13 @@
 {
   "name": "npx-stopwatch",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "npx-stopwatch": "./index.js"
+  },
   "scripts": {
-    "start": "node index.js",
+    "start": "./index.js",
     "test": "jest"
   },
   "keywords": [],
